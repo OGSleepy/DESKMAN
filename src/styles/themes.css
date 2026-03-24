@@ -1,0 +1,50 @@
+/* ── TEAL THEME (default) ────────────────────────────── */
+[data-theme="teal"] {
+  --bg: #050908;
+  --body: #0d1f1a;
+  --glass: #0a1f18;
+  --green: #00ffb3;
+  --green-dim: #7fffcc;
+  --green-muted: #4a9e80;
+  --red: #ff3b1f;
+  --text: #e8fff7;
+  --text-secondary: #4a9e80;
+  --border: #1a3d30;
+  --ruler: #0f2e24;
+  --glow: rgba(0, 255, 179, 0.35);
+  --glow-soft: rgba(0, 255, 179, 0.12);
+}
+
+/* ── VOID THEME ──────────────────────────────────────── */
+[data-theme="void"] {
+  --bg: #000000;
+  --body: #080808;
+  --glass: #050505;
+  --green: #00ffb3;
+  --green-dim: #00cc8f;
+  --green-muted: #336655;
+  --red: #ff3b1f;
+  --text: #ccffe8;
+  --text-secondary: #336655;
+  --border: #111111;
+  --ruler: #0a0a0a;
+  --glow: rgba(0, 255, 179, 0.25);
+  --glow-soft: rgba(0, 255, 179, 0.08);
+}
+
+/* ── AMBER THEME ─────────────────────────────────────── */
+[data-theme="amber"] {
+  --bg: #080400;
+  --body: #1a1000;
+  --glass: #120c00;
+  --green: #ffb300;
+  --green-dim: #ffd060;
+  --green-muted: #8a6200;
+  --red: #ff3b1f;
+  --text: #fff8e0;
+  --text-secondary: #8a6200;
+  --border: #3d2800;
+  --ruler: #2a1c00;
+  --glow: rgba(255, 179, 0, 0.35);
+  --glow-soft: rgba(255, 179, 0, 0.12);
+}
