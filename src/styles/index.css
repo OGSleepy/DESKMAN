@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './deskman.css';
+@import './animations.css';
+@import './themes.css';
+
+:root {
+  --bg: #050908;
+  --body: #0d1f1a;
+  --glass: #0a1f18;
+  --green: #00ffb3;
+  --green-dim: #7fffcc;
+  --green-muted: #4a9e80;
+  --red: #ff3b1f;
+  --text: #e8fff7;
+  --text-secondary: #4a9e80;
+  --border: #1a3d30;
+  --ruler: #0f2e24;
+  --glow: rgba(0, 255, 179, 0.35);
+  --glow-soft: rgba(0, 255, 179, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'IBM Plex Mono', monospace;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--body);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--green-muted);
+  border-radius: 2px;
+}
+
+/* Selection */
+::selection {
+  background: var(--green);
+  color: var(--bg);
+}
